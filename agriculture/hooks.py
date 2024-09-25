@@ -76,7 +76,7 @@ required_apps = ["erpnext"]
 
 # before_uninstall = "agriculture.uninstall.before_uninstall"
 # after_uninstall = "agriculture.uninstall.after_uninstall"
-
+after_install = "agriculture.agriculture.setup.setup_agriculture"
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
